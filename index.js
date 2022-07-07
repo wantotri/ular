@@ -2,7 +2,7 @@ import * as wasm from './pkg';
 
 async function main() {
   let app = document.getElementById("snake-app");
-  let scoreContainer = document.getElementById("score");
+  let scoreContainer = document.getElementById("snake-score");
   app.innerText = wasm.gamePrint();
 
   let playBtn = document.getElementById("snake-play-btn");
